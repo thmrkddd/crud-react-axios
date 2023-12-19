@@ -1,0 +1,70 @@
+.h1Titles {
+  text-align: center;
+}
+
+.cardContainer {
+  width: 100% !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-evenly !important;
+}
+.cardStyle {
+  margin: 15px 10px;
+}
+.cardName {
+  font-size: 16px;
+}
+.cardDescr {
+  font-size: 14px;
+}
+.cardPrice {
+  font-size: 12px;
+}
+.cardBtns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.btnStyle {
+  padding: 8px 18px;
+  margin-top: 10px;
+  background-color: white !important;
+  border-radius: 5px;
+  border: 1px solid gray !important;
+  color: black !important;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.btnStyle:hover {
+  background-color: #d8d8d8 !important;
+}
+.addProdStyle {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inpStyle {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  width: 210px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+.inpStyle:focus {
+  border-color: gray;
+}
+.inpStyle:last-child {
+  width: 229px !important;
+}
+
+.actionBtn {
+  color: black !important;
+  transition: color 0.3s ease !important;
+}
+.actionBtn:hover {
+  color: rgb(98, 98, 98) !important;
+}
